@@ -61,4 +61,4 @@ typings/
 .next
 
 # instance-specific files
-config/database.js
+database-config.js
