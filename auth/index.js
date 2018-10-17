@@ -5,7 +5,7 @@ const config = require('../config/auth.js')
 
 passport.use(new FacebookStrategy)({
   clientID: config.clientID,
-	clientSecret: config.facebook.clientSecret,
+  clientSecret: config.facebook.clientSecret,
   callbackURL: config.facebook.callbackURL,
   profileFields: config.facebook.profileFields
   }, function (accessToken, refreshToken, profile, done) {
